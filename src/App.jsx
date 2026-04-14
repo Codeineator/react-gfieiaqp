@@ -21,6 +21,7 @@ export default function App() {
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/gallery" element={<GalleryPage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/studio/*" element={<Studio config={config} />} />
           </Routes>
         </main>
         <Footer />
