@@ -24,7 +24,7 @@
   }
 
   /* Force Playfair Display on all Headings */
-  h1, h2, h3, h4, .font-serif {
+  h1, h2, h3, h4 {
     @apply font-serif;
     letter-spacing: -0.02em;
   }
