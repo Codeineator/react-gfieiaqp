@@ -23,9 +23,9 @@
     scroll-behavior: smooth;
   }
 
-  /* Force Playfair Display on all Headings */
+  /* Direct CSS instead of @apply to bypass PostCSS loops */
   h1, h2, h3, h4 {
-    @apply font-serif;
+    font-family: "Playfair Display", serif;
     letter-spacing: -0.02em;
   }
 }
