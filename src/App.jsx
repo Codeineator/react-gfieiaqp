@@ -1,3 +1,5 @@
+import { Studio } from 'sanity'
+import config from '../sanity.config'
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Header';
