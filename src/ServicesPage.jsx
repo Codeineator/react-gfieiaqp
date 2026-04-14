@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { client } from '../sanityClient.js';
+import { client } from './sanityClient.js';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
