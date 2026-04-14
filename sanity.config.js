@@ -1,6 +1,6 @@
 import { defineConfig } from 'sanity'
 import { deskTool } from 'sanity/desk'
-import service from './src/schemas/service'
+import service from './src/schemas/service.js'
 
 export default defineConfig({
   name: 'default',
